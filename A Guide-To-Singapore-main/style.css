@@ -17,11 +17,16 @@ li{
 	font-size: 20px;
 	list-style: none;
 }
+#heading{
+	font-size: 25px;
+}
+
 
 #mention{
-	border-left: 6px solid red;
-	margin-left: 5px;
+	border-left: 10px solid red;
+	margin-left: 2px;
 	margin-top: 10px;
+	
 
 }
 
@@ -34,7 +39,9 @@ li{
 
 #infos{
 	margin-top: 5px;
+	text-indent: 50px;
 }
+
 
 #tour
 {
@@ -43,4 +50,14 @@ li{
 
 img{
 	margin-top: 5px;
+	padding-right:28px;
+	
+}
+
+
+@media (max-width:700px){
+	#mobile{
+		height:200px;
+	}
+	
 }
